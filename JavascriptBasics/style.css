@@ -1,0 +1,93 @@
+/* body * {
+  border: 1px solid pink;
+} */
+
+.container {
+  width: 970px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: #0b325e;
+  padding-top: 5px;
+}
+
+.container a {
+  color: aqua;
+}
+
+.container h1 {
+  color: rgb(213, 205, 224);
+  background-color: rgb(197, 58, 58);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .bodycontainer {
+  margin: auto;
+}
+
+.container .aside {
+  display: inline-block;
+  height: 185px;
+  width: 180px;
+  background-color: rgb(1, 134, 134);
+  border-radius: 12px;
+  vertical-align: top;
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+  content: "\2022";
+  color: rgb(213, 205, 224);
+}
+
+.container .aside #home {
+  margin-left: 5px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.container .aside .nav {
+  font-size: 12px;
+  margin: 0%;
+}
+
+.container .body {
+  display: inline-block;
+  margin: 10px;
+  width: 710px;
+  min-height: 350px;
+  background-color: black;
+  vertical-align: top;
+  border-radius: 12px;
+  padding: 5px;
+  color: rgb(213, 205, 224);
+  font-size: 12px;
+  overflow-wrap: break-word;
+}
+
+.container .body .highlights {
+  color: rgb(125, 134, 255);
+}
+
+.container .body .jsbasics {
+  padding: 5px;
+  margin: 0px;
+}
+
+.container .body .introscript {
+  padding: 5px;
+  margin: 0px;
+}
+
+.container .body .bodylist {
+  text-align: left;
+}
+
+.container .footer {
+  background-color: gray;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 12px;
+  color: white;
+  font-size: 11px;
+}
