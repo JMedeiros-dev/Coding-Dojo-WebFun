@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Profile Registration Form</h1>
+    <h5>
+      Please fill out the following information and don't forget to press
+      submit!
+    </h5>
+    <form>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" />
+      <br />
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" />
+      <br />
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <br />
+      <label for="pw_confirm">Password Confirmation:</label>
+      <input type="password" id="pw_confirm" name="pw_confirm" />
+      <br />
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" />
+      <p>Gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="male" />
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="female" />
+      <label for="decline">Prefer not to say</label>
+      <input type="radio" id="decline" name="decline" />
+      <br />
+      <p>Favorite Language:</p>
+      <select name="favorite_language" id="favorite_language">
+        <option value="javascript">Javascript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+      </select>
+      <br />
+      <p>Bio:</p>
+      <textarea name="description" id="description" cols="30" rows="10">
+Say a few words about yourself!
+      </textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
