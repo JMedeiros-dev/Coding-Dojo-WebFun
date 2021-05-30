@@ -1,0 +1,216 @@
+/* * {
+  outline: 1px dotted pink;
+} */
+
+.container {
+  width: 970px;
+  height: 940px;
+  margin: auto;
+  background: rgb(38, 81, 117);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 81, 117, 1) 0%,
+    rgba(54, 115, 166, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* --------------------------header----------------------- */
+.banner {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.banner a {
+  color: gold;
+}
+
+span {
+  color: black;
+}
+
+.header_right {
+  text-align: center;
+  line-height: 5px;
+}
+
+.search_bar {
+  background-color: #444444;
+  border-radius: 6px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  width: 300px;
+  padding: 10px;
+  margin-right: 15px;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.79);
+}
+
+.search_bar input {
+  padding: 10px 20px;
+  border: 4px inset lightgray;
+  text-align: center;
+  margin-right: 2px;
+}
+
+.button {
+  background-color: rgb(38, 81, 117);
+  border-radius: 4px;
+  border: 3px solid silver;
+  color: white;
+  padding: 8px;
+  width: 50px;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.79);
+}
+
+.banner img {
+  width: 330px;
+  height: 93px;
+}
+/* --------------------------Nav Bar---------------------- */
+.nav {
+  background-color: steelblue;
+  height: 45px;
+  width: 760px;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.86);
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav li {
+  margin: 12px;
+  padding-left: 5px;
+  padding-left: 5px;
+}
+/* -----------------------Middle Content=---------------------- */
+
+.middle_box_left {
+  display: inline-block;
+  height: 360px;
+  width: 350px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 34px;
+  vertical-align: top;
+}
+
+.middle_box_left li a {
+  color: white;
+  font-size: 20px;
+}
+
+.middle_box_right {
+  display: inline-block;
+  margin-left: 0px;
+  height: 360px;
+  width: 600px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.poem {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 35px;
+  color: gold;
+}
+
+.poem span {
+  color: white;
+  font-size: 20px;
+  padding-top: 12px;
+  font-style: normal;
+}
+/* --------------Getting Started / Applications-------- */
+.white_banner {
+  box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.86);
+  background-color: white;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+}
+
+.white_banner h3 {
+  border-top: 5px solid steelblue;
+}
+
+.white_left {
+  height: 250px;
+  width: 400px;
+}
+
+.white_right {
+  height: 250px;
+  width: 400px;
+}
+
+.white_list {
+  list-style: square;
+  width: 280px;
+  align-content: center;
+}
+
+.whit_list li {
+  color: black;
+}
+
+.white_list li span {
+  color: steelblue;
+}
+
+.white_right a {
+  color: steelblue;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* -----------------Footer------------------------- */
+.footer {
+  width: 750px;
+  height: 50px;
+  margin: auto;
+  color: rgb(120, 192, 250);
+  text-align: center;
+  line-height: 20px;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 12px;
+}
+
+.footer a {
+  color: rgb(120, 192, 250);
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+}
+
+.footer p {
+  font-size: 11px;
+  margin-top: 0;
+}
