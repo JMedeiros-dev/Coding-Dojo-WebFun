@@ -1,0 +1,226 @@
+/* * {
+  outline: 1px dotted pink;
+} */
+
+.container {
+  width: 700px;
+  height: 725px;
+  margin: auto;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 50px;
+}
+
+.header h2 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: inline-block;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.header .tagline {
+  display: inline-flex;
+  font-weight: bold;
+  float: right;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.body {
+  height: 600px;
+  padding: 15px;
+  background: rgb(221, 173, 211);
+  background: radial-gradient(
+    circle,
+    rgba(221, 173, 211, 1) 0%,
+    rgba(175, 143, 168, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.bio {
+  height: 200px;
+  vertical-align: top;
+}
+
+.bio .headshot {
+  height: 90%;
+  display: inline-block;
+  border: 3px solid silver;
+  vertical-align: top;
+}
+
+.bio .aboutbox {
+  height: 186px;
+  width: 370px;
+  background: rgb(236, 223, 226);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 223, 226, 1) 0%,
+    rgba(240, 226, 252, 1) 100%
+  );
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
+.bio p {
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 4px;
+  margin: 5px;
+}
+
+.bio a {
+  color: black;
+  font-size: 12px;
+  margin-left: 9px;
+}
+
+h5 {
+  margin: 0px;
+  padding: 8px;
+  color: rgb(235, 232, 232);
+  background: rgb(119, 119, 121);
+  background: linear-gradient(
+    0deg,
+    rgba(119, 119, 121, 1) 46%,
+    rgba(231, 226, 226, 1) 100%
+  );
+}
+
+.projects {
+  height: 415px;
+  width: 671px;
+}
+
+.projects .lamode {
+  height: 400px;
+  width: 212px;
+  background: rgb(236, 223, 226);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 223, 226, 1) 0%,
+    rgba(240, 226, 252, 1) 100%
+  );
+  display: inline-block;
+  float: left;
+}
+
+.projects .project_pics {
+  width: 100%;
+}
+
+.projects .project_summary {
+  font-size: 10px;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-stretch: ultra-condensed;
+}
+
+h4 {
+  margin: 0px;
+  padding: 8px;
+  font-size: 12px;
+  vertical-align: top;
+  color: rgb(235, 232, 232);
+  background: rgb(119, 119, 121);
+  background: linear-gradient(
+    0deg,
+    rgba(119, 119, 121, 1) 46%,
+    rgba(231, 226, 226, 1) 100%
+  );
+}
+
+.tech1 {
+  margin-top: 36px;
+}
+
+.projects .family_contacts {
+  height: 400px;
+  width: 212px;
+  background: rgb(236, 223, 226);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 223, 226, 1) 0%,
+    rgba(240, 226, 252, 1) 100%
+  );
+  display: inline-block;
+  margin-left: 17px;
+}
+
+.tech_fam {
+  margin-top: 25px;
+}
+
+.projects .five_eleven {
+  height: 400px;
+  width: 212px;
+  background: rgb(236, 223, 226);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 223, 226, 1) 0%,
+    rgba(240, 226, 252, 1) 100%
+  );
+  display: inline-block;
+  float: right;
+}
+
+.tech_logos img {
+  height: 30px;
+  margin: 4px;
+}
+
+.button {
+  color: white;
+  background-color: forestgreen;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+  font-size: 10px;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .contacts {
+  margin: 0px;
+  text-align: center;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.social_media a {
+  color: black;
+}
+
+.contact_logos {
+  height: 15px;
+  padding: 5px;
+}
