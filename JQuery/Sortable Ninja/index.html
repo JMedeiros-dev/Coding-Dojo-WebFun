@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <title>Sortable Ninja</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Drag the pieces to unscramble the picture!</h1>
+      <ul id="sortable-1">
+        <li><img src="images/batman2.jpg" alt="" /></li>
+        <li><img src="images/batman5.jpg" alt="" /></li>
+        <li><img src="images/batman4.jpg" alt="" /></li>
+        <li><img src="images/batman1.jpg" alt="" /></li>
+        <li><img src="images/batman3.jpg" alt="" /></li>
+      </ul>
+    </div>
+    <script>
+      $(function () {
+        $("#sortable-1").sortable();
+      });
+    </script>
+  </body>
+</html>

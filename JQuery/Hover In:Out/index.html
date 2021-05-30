@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#coffee1").hover(
+          function () {
+            $(this).attr("src", "images/coffee5.jpg");
+          },
+          function () {
+            $(this).attr("src", "images/coffee1.jpg");
+          }
+        );
+        $("#coffee2").hover(
+          function () {
+            $(this).attr("src", "images/coffee6.jpg");
+          },
+          function () {
+            $(this).attr("src", "images/coffee2.jpg");
+          }
+        );
+        $("#coffee3").hover(
+          function () {
+            $(this).attr("src", "images/coffee7.jpg");
+          },
+          function () {
+            $(this).attr("src", "images/coffee3.jpg");
+          }
+        );
+        $("#coffee4").hover(
+          function () {
+            $(this).attr("src", "images/coffee8.jpg");
+          },
+          function () {
+            $(this).attr("src", "images/coffee4.jpg");
+          }
+        );
+      });
+    </script>
+    <title>Hover In/Out</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        id="coffee1"
+        src="images/coffee1.jpg"
+        data-alt-src="images/coffee5.jpg"
+        alt=""
+      />
+      <img
+        id="coffee2"
+        src="images/coffee2.jpg"
+        data-alt-src="images/coffee6.jpg"
+        alt=""
+      />
+      <img
+        id="coffee3"
+        src="images/coffee3.jpg"
+        data-alt-src="images/coffee7.jpg"
+        alt=""
+      />
+      <img
+        id="coffee4"
+        src="images/coffee4.jpg"
+        data-alt-src="images/coffee8.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+.container {
+  width: 980px;
+  min-height: 800px;
+  margin: auto;
+}
+
+.title {
+  height: 60px;
+  font-size: 65px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-bottom: 5px solid black;
+}
+
+#toggletext {
+  display: none;
+  color: #378de5;
+  font-size: 18px;
+}
+
+.hiddenChuck {
+  width: 980px;
+  display: none;
+  text-align: center;
+}
+
+.approved {
+  width: 200px;
+  display: inline-block;
+}
+
+.hiddenBruce {
+  width: 980px;
+  display: none;
+  text-align: center;
+}
+
+.hiddenArnold {
+  width: 980px;
+  display: none;
+  text-align: center;
+}
+
+.hiddenRock {
+  width: 980px;
+  display: none;
+  text-align: center;
+}
+
+.byedwight {
+  width: 980px;
+  text-align: center;
+}
+
+.background {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(136, 136, 136, 1) 100%
+  );
+  color: #79bbff;
+}
+
+.addclass {
+  width: 980px;
+}
+
+input.check {
+  width: 25px;
+  height: 25px;
+}

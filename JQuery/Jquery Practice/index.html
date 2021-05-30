@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("a").click(function () {
+          alert("You are about to leave the page!");
+        });
+
+        $("#hide").click(function () {
+          $("p").hide();
+        });
+
+        $("#show").click(function () {
+          $("p").show();
+        });
+
+        $("h3").hover(function () {
+          $("h2").text("go see the Space Needle!");
+        });
+
+        $(".append").click(function () {
+          $("h3").slideUp("slow", function () {
+            // Animation complete.
+          });
+        });
+
+        $("button").click(function () {
+          $("button").css("background-color", "yellow");
+        });
+      });
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <p>This is a paragraph!</p>
+    <p>This is also a paragraph!</p>
+    <button id="hide">This will hide all paragraphs!</button>
+    <button id="show">Click to show all paragraphs</button>
+    <a id="mylink" href="http://www.google.com">Go to google!</a>
+    <h3>Mountain View, California</h3>
+    <h2>Seattle, Washington</h2>
+    <button class="append">Click to see .append work!</button>
+    <div class="result"></div>
+  </body>
+</html>

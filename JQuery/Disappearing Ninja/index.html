@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".statue").click(function () {
+          $(this).hide();
+        });
+        $("myButton").click(function () {
+          $(".statue").show("fast");
+        });
+      });
+    </script>
+    <title>Disappearing Ninja</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Statue of Liberty</h1>
+        <img src="David-Copperfield.jpg" alt="David Copperfield" />
+      </div>
+      <div class="liberty row1">
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+      </div>
+      <div class="liberty row2">
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+        <img class="statue" src="statue.jpg" alt="Statue of Liberty" />
+      </div>
+      <a href="" class="myButton">Restore</a>
+    </div>
+  </body>
+</html>

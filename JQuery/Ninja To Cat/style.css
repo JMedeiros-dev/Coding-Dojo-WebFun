@@ -1,0 +1,25 @@
+.container {
+  width: 980px;
+  min-height: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+.photos {
+  width: 980px;
+  height: 737px;
+  background-color: rgb(0, 0, 0);
+  justify-items: center;
+}
+
+.photos img {
+  width: 480px;
+  display: block;
+  margin: auto;
+  margin-top: 4px;
+}

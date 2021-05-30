@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#bruce1").click(function () {
+          $(this).attr("src", "images/batman1.jpg");
+        });
+        $("#bruce2").click(function () {
+          $(this).attr("src", "images/batman2.jpg");
+        });
+        $("#bruce3").click(function () {
+          $(this).attr("src", "images/batman3.jpg");
+        });
+        $("#bruce4").click(function () {
+          $(this).attr("src", "images/batman4.jpg");
+        });
+        $("#bruce5").click(function () {
+          $(this).attr("src", "images/batman5.jpg");
+        });
+      });
+    </script>
+    <title>Ninja To Cat</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Who Is This?</h1>
+      <p>Click on the pictures to find out!</p>
+      <div class="photos">
+        <img
+          id="bruce1"
+          src="images/bruce1.jpg"
+          data-alt-src="images/batman1.jpg"
+          alt=""
+        />
+        <img
+          id="bruce2"
+          src="images/bruce2.jpg"
+          data-alt-src="images/batman2.jpg"
+          alt=""
+        />
+        <img
+          id="bruce3"
+          src="images/bruce3.jpg"
+          data-alt-src="images/batman3.jpg"
+          alt=""
+        />
+        <img
+          id="bruce4"
+          src="images/bruce4.jpg"
+          data-alt-src="images/batman4.jpg"
+          alt=""
+        />
+        <img
+          id="bruce5"
+          src="images/bruce5.jpg"
+          data-alt-src="images/batman5.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>

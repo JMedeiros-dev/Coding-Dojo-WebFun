@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#click").click(function () {
+          $("#clicktext").html("You clicked the button!");
+        });
+        $("#hide").click(function () {
+          $("#hide").hide();
+        });
+        $("#show").click(function () {
+          $("#hide").show();
+        });
+        $("#toggle").click(function () {
+          $("#toggletext").toggle();
+        });
+        $("#slidedown").click(function () {
+          if ($(".hiddenChuck").first().is(":hidden")) {
+            $(".hiddenChuck").slideDown("slow");
+          } else {
+            $(".hiddenChuck").hide();
+          }
+        });
+        $("#slideup").click(function () {
+          if ($(".hiddenBruce").first().is(":hidden")) {
+            $(".hiddenBruce").show("slow");
+          } else {
+            $(".hiddenBruce").slideUp();
+          }
+        });
+        $("#slidetoggle").click(function () {
+          if ($(".hiddenArnold").first().is(":hidden")) {
+            $(".hiddenArnold").slideToggle("slow");
+          } else {
+            $(".hiddenArnold").hide();
+          }
+        });
+        $("#fadein").click(function () {
+          if ($(".hiddenRock").first().is(":hidden")) {
+            $(".hiddenRock").slideToggle("slow");
+          } else {
+            $(".hiddenRock").hide();
+          }
+        });
+        $("#fadeout").click(function () {
+          $(".byedwight").hide();
+        });
+
+        $("#addclassbtn").click(function () {
+          $(".addclass").addClass("background");
+        });
+        $("#before").click(function () {
+          $("#before").before("<p>Something Cool!</p>");
+        });
+        $("#after").click(function () {
+          $("#after").after("<p>Something Cooler!</p>");
+        });
+        $("#append").click(function () {
+          $("#joke").append("<p>He got twelve months.</p>");
+        });
+        $("#html").click(function () {
+          $("#js").html("JQUERY");
+        });
+        $("#attr").click(function () {
+          $('input[type="checkbox"]').attr("checked", "checked");
+        });
+        $("#val").click(function () {
+          $("input:text").val("Nice!");
+        });
+        $("#text").click(function () {
+          $("#end").text("The End");
+        });
+      });
+    </script>
+    <title>JQuery Functions</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Click</h1>
+      <a href="#" id="click" class="myButton">Click</a>
+      <p id="clicktext" class="instructions">
+        Click the button and see what happens!
+      </p>
+      <h1 class="title">Hide</h1>
+      <a href="#" id="hide" class="myButton">Hide</a>
+      <p class="instructions">Hide the button!</p>
+      <h1 class="title">Show</h1>
+      <a href="#" id="show" class="myButton">Show</a>
+      <p class="instructions">Bring that button back!</p>
+      <h1 class="title">Toggle</h1>
+      <a href="#" id="toggle" class="myButton">Toggle</a>
+      <p id="toggletext">"Pretty cool huh!?"</p>
+      <p class="instructions">Click the button to see toggle in action!</p>
+      <h1 id="slidetitle" class="title">SlideDown</h1>
+      <div class="hiddenChuck">
+        <img
+          class="approved"
+          src="chucknorris.jpg"
+          alt="Chuck Norris Approved"
+        />
+      </div>
+      <a href="#" id="slidedown" class="myButton">SlideDown</a>
+      <p class="instructions">Click the button to see SlideDown!</p>
+      <h1 class="title">SlideUp</h1>
+      <div class="hiddenBruce">
+        <img class="approved" src="brucelee.jpg" alt="Bruce Lee Approved" />
+      </div>
+      <a href="#" id="slideup" class="myButton">SlideUp</a>
+      <p class="instructions">Click the button to see SlideUp!</p>
+      <h1 class="title">SlideToggle</h1>
+      <div class="hiddenArnold">
+        <img class="approved" src="arnold.jpeg" alt="Arnold" />
+      </div>
+      <a href="#" id="slidetoggle" class="myButton">SlideToggle</a>
+      <p class="instructions">Click the button to see SlideToggle!</p>
+      <h1 class="title">FadeIn</h1>
+      <div class="hiddenRock">
+        <img class="approved" src="rock.jpg" alt="The Rock" />
+      </div>
+      <a href="#" id="fadein" class="myButton">FadeIn</a>
+      <p class="instructions">Click the button to see FadeIn!</p>
+      <h1 class="title">FadeOut</h1>
+      <div class="byedwight">
+        <img class="approved" src="dwight.jpg" alt="dwight" />
+      </div>
+      <a href="#" id="fadeout" class="myButton">FadeOut</a>
+      <p class="instructions">Click the button to see FadeOut!</p>
+      <div class="addclass">
+        <h1 class="title">AddClass</h1>
+        <a href="#" id="addclassbtn" class="myButton">AddClass</a>
+        <p class="instructions">Click the button to see AddClass!!</p>
+      </div>
+      <h1 class="title">Before</h1>
+      <a href="#" id="before" class="myButton">Before</a>
+      <p class="instructions">Click the button for something cool!</p>
+      <h1 class="title">After</h1>
+      <a href="#" id="after" class="myButton">After</a>
+      <p class="instructions">Click the button for something cooler!</p>
+      <h1 class="title">Append</h1>
+      <a href="#" id="append" class="myButton">Append</a>
+      <p id="joke" class="instructions">
+        Did you hear about the crook who stole a calendar?
+      </p>
+      <h1 id="js" class="title">HTML</h1>
+      <a href="#" id="html" class="myButton">HTML</a>
+      <p class="instructions">Click the button to see HTML!</p>
+      <h1 id="bgblue" class="title">Attr</h1>
+      <a href="#" id="attr" class="myButton">Attr</a>
+      <input class="check" type="checkbox" />
+      <p class="instructions">Click the button to see Attr!</p>
+      <h1 class="title">Val</h1>
+      <a href="#" id="val" class="myButton">Val</a>
+      <p><input type="text" /></p>
+      <p class="instructions">Click the button to see Val!</p>
+      <h1 id="end" class="title">Text</h1>
+      <a href="#" id="text" class="myButton">Text</a>
+      <p class="instructions">Click the button to see Text!</p>
+    </div>
+  </body>
+</html>
